@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Can Change HTML Attribute Values</title>
+
+    <!--font-family from google -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--link to cs-->
+    <link rel="stylesheet" href="ATT.css">
+</head>
+
+<body>
+
+    <!--box containred design -->
+    <div class="Container">
+        <h1>JavaScript Can Change HTML Attribute Values</h1>
+
+        <div class="Box">
+            <button class="btn" onclick="document.getElementById('myImage').src='Imges/pic_bulbon.gif'">Turn on the
+                light</button>
+            <img id="myImage" src="Imges/pic_bulboff.gif" style="width:100px">
+            <button class="btn" onclick="document.getElementById('myImage').src='Imges/pic_bulboff.gif'">Turn off the
+                light</button>
+        </div>
+    </div>
+</body>
+<!--link to js-->
+<script src="ATT.js"></script>
+
+</html>
